@@ -12,45 +12,45 @@
 // Remember to commit your solution once it is working.
 
 
-// for (let num = 1; num <= 100; num++) {
-//     if (num % 3 === 0 && num % 5 === 0) {
-//         console.log("Fizz Buzz");
-//     } else if (num % 3 === 0) {
-//         console.log("Fizz");
-//     } else if (num % 5 === 0) {
-//         console.log("Buzz");
-//     } else {
-//         console.log(num);
-//     }
-// }
+for (let num = 1; num <= 100; num++) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        console.log("Fizz Buzz");
+    } else if (num % 3 === 0) {
+        console.log("Fizz");
+    } else if (num % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(num);
+    }
+}
 
 // Prime Time
 
 
-// for (let n = 2; n <= 10; n++) {
-//     let isPrime = true;
+for (let n = 2; n <= 10; n++) {
+    let isPrime = true;
 
-//     for (let i = 2; i < n; i++) {
-//         if (n % i === 0) {
-//             isPrime = false; // not a prime number
-//             break;
-//         }
-//     }
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            isPrime = false; // not a prime number
+            break;
+        }
+    }
 
-//     if (isPrime) {
-//         console.log(`${n} is a prime number.`);
-//     }
-// }
+    if (isPrime) {
+        console.log(`${n} is a prime number.`);
+    }
+}
 
-// let sum = 0;
+let sum = 0;
 
-// for (let i = 0; i < 5; i++) {
-//     if (i % 2 !== 0) {
-//         sum += i; // Add odd numbers to the sum
-//     }
-// }
+for (let i = 0; i < 5; i++) {
+    if (i % 2 !== 0) {
+        sum += i; // Add odd numbers to the sum
+    }
+}
 
-// console.log(sum);
+console.log(sum);
 
 //* Feeling Loopy
 
